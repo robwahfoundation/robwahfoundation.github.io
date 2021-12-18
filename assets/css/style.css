@@ -718,7 +718,7 @@ section {
 .why-us .video-box {
   position: relative;
 }
-.why-us .video-box img {
+.why-us .video-box iframe {
   padding-top: 15px;
   padding-bottom: 15px;
 }
