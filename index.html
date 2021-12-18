@@ -271,17 +271,27 @@
           <div class="row">
             <div class="col-lg-6 video-box">
               <a
-                href="../assets/videos/robwah_description.mp4"
+                id="video_play_button"
                 class="venobox play-btn mb-4"
                 data-vbtype="video"
                 data-autoplay="true"
-                target="video_frame"
               ></a>
-              <iframe
-                name="video_frame"
-                style="width: 100%; height: 600px"
-                class="img-fluid"
-              ></iframe>
+              <a
+                id="video_pause_button"
+                class="venobox pause-btn mb-4"
+                data-vbtype="video"
+                data-autoplay="true"
+                hidden
+              ></a>
+              <video id="videoPlayer" width="100%" height="100%" controls>
+                <source
+                  src="assets/videos/robwah_description.mp4"
+                  type="video/mp4"
+                  style="width: 100%; text-align: center; margin: 0 auto"
+                  class="img-fluid"
+                />
+                Video Descriptive Robwah Foundation
+              </video>
             </div>
 
             <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
@@ -559,6 +569,7 @@
     ></a>
 
     <!-- Vendor JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
