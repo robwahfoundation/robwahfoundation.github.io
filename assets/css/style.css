@@ -316,8 +316,8 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../images/pictures/hero_image.JPG") center center no-repeat;
-  /* url("../img/hero-bg.jpg") center top no-repeat; */
+    /* url("../images/pictures/hero_image2.JPG") center bottom no-repeat; */
+      url("../images/pictures/hero_image.JPG") center center no-repeat;
   /* background-size: 90%; */
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -461,7 +461,8 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../images/pictures/hero_image.JPG") center center no-repeat;
+    /* url("../images/pictures/hero_image2.JPG") center center no-repeat; */
+      url("../images/pictures/hero_image.JPG") center center no-repeat;
 }
 #hero-no-slider h2 {
   color: #fff;
@@ -919,6 +920,32 @@ section {
   margin-bottom: 0;
 }
 
+.features .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #68a4c4;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #68a4c4;
+}
+
+.features .btn-get-started:hover {
+  background: #68a4c4;
+  color: #fff;
+  text-decoration: none;
+}
+
+.features img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
