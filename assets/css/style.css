@@ -903,6 +903,7 @@ section {
 .features h3 {
   font-weight: 400;
   font-size: 24px;
+  padding-bottom: 14px;
 }
 .features ul {
   list-style: none;
@@ -945,6 +946,7 @@ section {
 
 .features img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5%;
 }
 /*--------------------------------------------------------------
 # About
