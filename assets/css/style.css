@@ -316,8 +316,8 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../images/pictures/hero_image3.JPG") no-repeat scroll center center;
-  /* url("../images/pictures/hero_image.JPG") no-repeat scroll center bottom; */
+    url("../images/pictures/hero_image3.jpg") no-repeat scroll center center;
+  /* url("../images/pictures/hero_image.jpg") no-repeat scroll center bottom; */
   /* background-size: 90%; */
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -461,8 +461,8 @@ h6,
       rgba(30, 67, 86, 0.8),
       rgba(30, 67, 86, 0.6)
     ),
-    url("../images/pictures/hero_image2.JPG") no-repeat scroll center bottom;
-  /* url("../images/pictures/hero_image.JPG") no-repeat scroll center bottom; */
+    url("../images/pictures/hero_image2.jpg") no-repeat scroll center bottom;
+  /* url("../images/pictures/hero_image.jpg") no-repeat scroll center bottom; */
 }
 #hero-no-slider h2 {
   color: #fff;
