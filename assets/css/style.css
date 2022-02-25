@@ -1521,13 +1521,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 .contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form textarea,
+.contact .php-email-form select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 .contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.contact .php-email-form textarea::focus,
+.contact .php-email-form select::focus {
   background-color: #68a4c4;
 }
 .contact .php-email-form input {
@@ -1535,6 +1537,9 @@ section {
 }
 .contact .php-email-form textarea {
   padding: 12px 15px;
+}
+.contact .php-email-form select {
+  padding: 10px 15px;
 }
 .contact .php-email-form button[type="submit"] {
   background: #68a4c4;
