@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $("#submitBtn").on("click", function (e) {
     let gender = $("#gender").val();
-    let phone = "6285649751560";
+    let phone = "6285756354504";
     let success = true;
-    if (gender == "female") {
-      phone = "6285735012063";
-    }
+    // if (gender == "female") {
+    //   phone = "6285649751560";
+    // }
     let formSubmit = $(".php-email-form .form-control");
     $.each(formSubmit, function (item, index) {
       if (index.value == "") {
