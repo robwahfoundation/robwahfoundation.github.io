@@ -157,11 +157,25 @@
   /**
    * Testimonials slider
    */
-  new Swiper(".testimonials-carousel", {
+  new Swiper(".testimonials-carousel-mar", {
     speed: 400,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  new Swiper(".testimonials-carousel", {
+    speed: 400,
+    loop: false,
+    autoplay: {
+      delay: 1000,
       disableOnInteraction: false,
     },
     pagination: {
